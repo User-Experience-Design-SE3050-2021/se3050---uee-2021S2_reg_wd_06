@@ -1,4 +1,4 @@
-# se3050---uee-sliit_reg_wd_06
+# se3050---uee-2021S2_reg_wd_06
 se3050---uee-sliit_reg_wd_06 created by GitHub Classroom
 Member Details
 IT19123196-K.H.T.N Dewangi
