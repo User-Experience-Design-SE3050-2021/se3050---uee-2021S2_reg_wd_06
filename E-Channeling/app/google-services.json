@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522200002575",
+    "project_id": "e-channeling-8dfde",
+    "storage_bucket": "e-channeling-8dfde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522200002575:android:52ce0530572d9ce61cb37a",
+        "android_client_info": {
+          "package_name": "com.example.e_channeling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522200002575-q9cml9bvrp69fraebrv3t317f9v5qmlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvQiTXPPeNpKPJ9IAjJgTQclHkVph684g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522200002575-q9cml9bvrp69fraebrv3t317f9v5qmlo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
