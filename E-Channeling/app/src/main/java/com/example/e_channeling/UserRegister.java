@@ -67,16 +67,7 @@ public class UserRegister extends AppCompatActivity implements View.OnClickListe
             name.requestFocus();
             return;
         }
-        if(ageVal.isEmpty()){
-            age.setError("Your age is required!");
-            age.requestFocus();
-            return;
-        }
-        if(cityVal.isEmpty()){
-            age.setError("Your city name is required!");
-            age.requestFocus();
-            return;
-        }
+
         if(emailVal.isEmpty()){
             email.setError("Your email is required!");
             email.requestFocus();
@@ -94,6 +85,16 @@ public class UserRegister extends AppCompatActivity implements View.OnClickListe
         if(passwordVal.length()<6){
             password.setError("minimum password length 6 characters");
             password.requestFocus();
+            return;
+        }
+        if(ageVal.isEmpty()){
+            age.setError("Your age is required!");
+            age.requestFocus();
+            return;
+        }
+        if(cityVal.isEmpty()){
+            age.setError("Your city name is required!");
+            age.requestFocus();
             return;
         }
         progressBar.setVisibility(View.VISIBLE);
@@ -115,6 +116,7 @@ public class UserRegister extends AppCompatActivity implements View.OnClickListe
                                             if(task.isSuccessful()){
                                                 Toast.makeText(UserRegister.this,"You have been registered successfully!", Toast.LENGTH_LONG ).show();
                                                 progressBar.setVisibility(View.GONE);
+                                                startActivity(new Intent(UserRegister.this, Home.class));
                                             }else{
                                                 Toast.makeText(UserRegister.this,"Failed to register!", Toast.LENGTH_LONG ).show();
                                                 progressBar.setVisibility(View.GONE);

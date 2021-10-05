@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EChanneling">
         <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
             android:name=".UserRegister"
             android:exported="true" />
         <activity
