@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/thisAppBlue</item>
         <item name="colorPrimaryVariant">@color/thisAppBlue</item>
         <item name="colorOnPrimary">@color/white</item>
+        <item name="materialThemeOverlay">@style/ButtonStyleTextColor</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
@@ -14,4 +15,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="ButtonStyleTextColor">
+        <!-- For filled buttons, your theme's colorPrimary provides the default background color of the component, and -->
+        <!--the text color is colorOnPrimary -->
+        <item name="colorPrimary">@color/thisAppLowBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
 </resources>
