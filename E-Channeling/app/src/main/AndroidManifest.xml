@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EChanneling">
         <activity
+            android:name=".UserLogin"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
