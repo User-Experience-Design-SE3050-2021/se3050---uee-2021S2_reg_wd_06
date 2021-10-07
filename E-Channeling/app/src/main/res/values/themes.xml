@@ -22,4 +22,13 @@
         <item name="colorOnPrimary">@color/white</item>
 
     </style>
+
+    <style name="Theme.EChanneling.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.EChanneling.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.EChanneling.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

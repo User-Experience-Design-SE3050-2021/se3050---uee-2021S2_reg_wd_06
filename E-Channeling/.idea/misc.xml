@@ -3,10 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2203125" />
         <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/activity_user_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/activity_user_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/app_bar_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/content_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_channel _history.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_channeling.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_claim_refund.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_contact_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_driving_license_medical.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_pcr_test.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_running_number.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/layout/nav_header_home.xml" value="0.5" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shalitha/Desktop/E-Channeling/se3050---uee-2021S2_reg_wd_06/E-Channeling/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
       </map>
     </option>

@@ -85,7 +85,7 @@ public class UserLogin extends AppCompatActivity implements View.OnClickListener
                 if(task.isSuccessful()){
                     Toast.makeText(UserLogin.this,"You have been logged successfully!", Toast.LENGTH_LONG ).show();
                     progressBar.setVisibility(View.GONE);
-                    startActivity(new Intent(UserLogin.this, Home.class));
+                    startActivity(new Intent(UserLogin.this, HomeActivity.class));
                 }else{
                     Toast.makeText(UserLogin.this,"Failed to Login!", Toast.LENGTH_LONG ).show();
                     progressBar.setVisibility(View.GONE);

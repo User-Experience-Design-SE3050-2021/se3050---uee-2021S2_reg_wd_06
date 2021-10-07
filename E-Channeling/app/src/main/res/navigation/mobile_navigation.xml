@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_channeling">
+
+    <fragment
+        android:id="@+id/nav_channeling"
+        android:name="com.example.e_channeling.ui.channeling.ChannelingFragment"
+        android:label="@string/menu_channeling"
+        tools:layout="@layout/fragment_channeling" />
+
+    <fragment
+        android:id="@+id/nav_drivingLicenseMedical"
+        android:name="com.example.e_channeling.ui.drivingLicenseMedical.DrivingLicenseMedicalFragment"
+        android:label="@string/menu_drivingLicenseMedical"
+        tools:layout="@layout/fragment_driving_license_medical" />
+
+    <fragment
+        android:id="@+id/nav_runningNumber"
+        android:name="com.example.e_channeling.ui.runningNumber.RunningNumberFragment"
+        android:label="@string/menu_runningNumber"
+        tools:layout="@layout/fragment_running_number" />
+    <fragment
+        android:id="@+id/nav_pCRTest"
+        android:name="com.example.e_channeling.ui.pCRTest.PCRTestFragment"
+        android:label="@string/menu_pCRTest"
+        tools:layout="@layout/fragment_running_number" />
+    <fragment
+        android:id="@+id/nav_channelHistory"
+        android:name="com.example.e_channeling.ui.channelHistory.ChannelHistoryFragment"
+        android:label="@string/menu_channelHistory"
+        tools:layout="@layout/fragment_channel_history" />
+    <fragment
+        android:id="@+id/nav_claimRefund"
+        android:name="com.example.e_channeling.ui.channelHistory.ChannelHistoryFragment"
+        android:label="@string/menu_claimRefund"
+        tools:layout="@layout/fragment_channel_history" />
+    <fragment
+        android:id="@+id/nav_contactUs"
+        android:name="com.example.e_channeling.ui.contactUs.ContactUsFragment"
+        android:label="@string/menu_contactUs"
+        tools:layout="@layout/fragment_contact_us" />
+
+</navigation>
