@@ -193,7 +193,7 @@
         android:text="Fill Your Details and Register For Test"
         android:textColor="#1976D2"
         android:textSize="18sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

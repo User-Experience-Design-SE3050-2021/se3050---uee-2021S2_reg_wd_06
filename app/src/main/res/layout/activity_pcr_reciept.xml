@@ -280,7 +280,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="628dp"
-        android:text="Patient Channelling Details"
+        android:text="Patient Receipt "
         android:textColor="#1976D2"
         android:textSize="18sp"
         android:textStyle="bold"
