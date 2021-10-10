@@ -34,9 +34,9 @@
         tools:layout="@layout/fragment_channel_history" />
     <fragment
         android:id="@+id/nav_claimRefund"
-        android:name="com.example.e_channeling.ui.channelHistory.ChannelHistoryFragment"
+        android:name="com.example.e_channeling.ui.claimRefund.ClaimRefundFragment"
         android:label="@string/menu_claimRefund"
-        tools:layout="@layout/fragment_channel_history" />
+        tools:layout="@layout/fragment_claim_refund" />
     <fragment
         android:id="@+id/nav_contactUs"
         android:name="com.example.e_channeling.ui.contactUs.ContactUsFragment"

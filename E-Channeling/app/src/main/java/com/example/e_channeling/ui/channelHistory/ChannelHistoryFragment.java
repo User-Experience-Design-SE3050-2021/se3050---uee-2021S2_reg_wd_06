@@ -1,7 +1,6 @@
 package com.example.e_channeling.ui.channelHistory;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +14,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.e_channeling.MainActivity;
 import com.example.e_channeling.R;
 import com.example.e_channeling.databinding.FragmentChannelHistoryBinding;
 

@@ -70,7 +70,7 @@
         android:id="@+id/dPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="90dp"
         android:text="TextView"
         android:textColor="@color/thisAppRed"
         android:textSize="10sp"
