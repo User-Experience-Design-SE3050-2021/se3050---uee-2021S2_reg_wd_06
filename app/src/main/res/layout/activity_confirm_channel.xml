@@ -153,15 +153,16 @@
         android:id="@+id/button8"
         android:layout_width="215dp"
         android:layout_height="41dp"
-        android:layout_marginBottom="160dp"
         android:background="@drawable/shape"
         android:backgroundTint="#039BE5"
         android:text="Pay"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
