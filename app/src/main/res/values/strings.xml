@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EChannel</string>
+    <string name="app_name">EChannelling</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -28,23 +28,19 @@
     </string-array>
 
     <string-array name="specification">
-        <item>ANY</item>
-        <item>C#</item>
-        <item>Python</item>
-        <item>VB.net</item>
-        <item>C</item>
-        <item>C++</item>
-        <item>HTML</item>
+        <item>family</item>
+        <item>pcr test</item>
+        <item>heart</item>
+        <item>born</item>
+
     </string-array>
 
     <string-array name="hostpital">
         <item>ANY</item>
-        <item>C#</item>
-        <item>Python</item>
-        <item>VB.net</item>
-        <item>C</item>
-        <item>C++</item>
-        <item>HTML</item>
+        <item>asisri</item>
+        <item>durdans</item>
+        <item>army</item>
+
     </string-array>
     <string name="title_activity_available_doctors">AvailableDoctors</string>
     <!-- Strings used for fragments for navigation -->
