@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/drawable/doctor.xml" value="0.1" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout-v21/activity_bookingpaysummary.xml" value="0.19947916666666668" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_available_doctors.xml" value="0.25" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_booking.xml" value="0.25" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_bookingpaysummary.xml" value="0.33" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_checkout.xml" value="0.33" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_confirm_channel.xml" value="0.19947916666666668" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_hospitals.xml" value="0.18478260869565216" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_make_payment.xml" value="0.18478260869565216" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_payfor_booking.xml" value="0.22" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/activity_pcr_reciept.xml" value="0.22" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/fragment_pcr.xml" value="0.19947916666666668" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/fragment_pcr_hospital.xml" value="0.19947916666666668" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/pcr_hospital.xml" value="0.19947916666666668" />
+        <entry key="..\:/2nd semester/EChannel/EChannel/app/src/main/res/layout/pcr_vertical_hospitals.xml" value="0.19947916666666668" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

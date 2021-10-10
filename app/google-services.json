@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96917406296",
+    "project_id": "echannelling-85a74",
+    "storage_bucket": "echannelling-85a74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96917406296:android:f79e3cd59c71724aafc02d",
+        "android_client_info": {
+          "package_name": "com.example.echannel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96917406296-qdbit87ua99rc03n0lf30k495kfs29bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlCIi8uY_NLeOHYEXPtPgc6IQ0ez3xn_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96917406296-qdbit87ua99rc03n0lf30k495kfs29bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
