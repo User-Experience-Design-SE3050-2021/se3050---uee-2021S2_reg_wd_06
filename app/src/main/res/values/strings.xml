@@ -8,6 +8,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="ChannelingTitle">Meet Your Doctor</string>
@@ -56,7 +57,12 @@
     <string name="pcr_test">PCR</string>
     <string name="menu_pcr">menupcr</string>
     <string name="pcr">PCR</string>
+    <string name="menu_runningnum">Running Number</string>
+    <string name="menu_driving">Driving License Medical</string>
     <string name="pcrtest">PCR TEST</string>
+    <string name="menu_history">Channel History</string>
+    <string name="menu_refund">Claim Refund</string>
+    <string name="menu_contact">Contact Us</string>
     <string name="durdans">DURDANS HOSPITAL</string>
     <string name="pcr1">PCR TEST</string>
     <string name="hospital_address">Durdans Hospital - Colombo 3</string>
