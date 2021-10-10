@@ -63,13 +63,15 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="323dp"
-            android:layout_height="52dp"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="63dp"
             android:background="#FFFFFF"
-            android:text="Client from Isolated area or quarantined people are not allowed. Allocations can be done to relavant NTMI branch at NIC address"
-            android:textColor="#FB0C0C" />
+            android:text="paid appoinments only STRICTLY NO CANCELLATIONS, NO REFUNDS maximum 10pts only for one hour...Before reserve in a travelling PCR please contact this number.0713456789"
+            android:textColor="#FB0C0C"
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <TextView
