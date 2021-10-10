@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".makePayment"
-            android:label="Pcr Test"></activity>
+            android:label="Payment"></activity>
         <activity
             android:name=".checkout"
             android:label="Pcr Test" />

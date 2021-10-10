@@ -171,7 +171,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="@drawable/shape"
-        android:backgroundTint="#D32F2F"
+        android:backgroundTint="#FF303F9F"
         android:text="Apply"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
