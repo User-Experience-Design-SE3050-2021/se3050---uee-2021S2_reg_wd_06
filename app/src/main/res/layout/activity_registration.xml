@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Registration">
+
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/txtPatientName"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        android:layout_marginRight="28dp"-->
+<!--        -->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        tools:layout_editor_absoluteY="181dp">-->
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id ="@+id/txtName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:cursorVisible="false"-->
+<!--            android:ems ="10"-->
+<!--            android:hint="Enter Name"-->
+<!--            android:importantForAutofill=""-->
+<!--            />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="107dp"
+        android:layout_height="17dp"
+        android:layout_marginBottom="560dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Patient name"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/IDtxt"
+        android:layout_width="89dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="476dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="National ID"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/Addresstxt"
+        android:layout_width="70dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="392dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Address"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/emailtxt"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="212dp"
+        android:background="#FDFBFB"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Email"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/mobiletxt2"
+        android:layout_width="143dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="300dp"
+        android:background="#FDFBFB"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Mobile Number"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="500dp"
+        android:background="@drawable/edittextround"
+        android:ems="10"
+        android:hint="     Enter Patient Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextID"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="420dp"
+        android:background="@drawable/edittextround"
+
+
+        android:ems="10"
+        android:hint="     Enter National ID"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextaddress"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="332dp"
+        android:background="@drawable/edittextround"
+        android:ems="10"
+        android:hint="     Enter Address"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextmobile"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/edittextround"
+        android:ems="10"
+        android:hint="     Enter Email"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextmobile2"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="244dp"
+        android:background="@drawable/edittextround"
+        android:ems="10"
+        android:hint="     Enter Mobile Number"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/regitext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="628dp"
+        android:text="Fill Your Details and Register For Test"
+        android:textColor="#1976D2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegi"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FF303F9F"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F5F5F5"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittextmobile" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginLeft="298dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextID"
+        app:layout_constraintEnd_toEndOf="@+id/edittextID"
+        app:layout_constraintStart_toStartOf="@+id/edittextID"
+        app:layout_constraintTop_toTopOf="@+id/edittextID"
+        app:srcCompat="@drawable/ic_baseline_card_travel_24" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextaddress"
+        app:layout_constraintEnd_toEndOf="@+id/edittextaddress"
+        app:layout_constraintStart_toStartOf="@+id/edittextaddress"
+        app:layout_constraintTop_toTopOf="@+id/edittextaddress"
+        app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextmobile2"
+        app:layout_constraintEnd_toEndOf="@+id/edittextmobile2"
+        app:layout_constraintStart_toStartOf="@+id/edittextmobile2"
+        app:layout_constraintTop_toTopOf="@+id/edittextmobile2"
+        app:srcCompat="@drawable/ic_baseline_perm_phone_msg_24" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextmobile"
+        app:layout_constraintEnd_toEndOf="@+id/edittextmobile"
+        app:layout_constraintStart_toStartOf="@+id/edittextmobile"
+        app:layout_constraintTop_toTopOf="@+id/edittextmobile"
+        app:srcCompat="@drawable/ic_baseline_email_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/drawable-v24/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/drawable/drawerimage.xml" value="0.1" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/drawable/drawershape.xml" value="0.1" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.25076923076923074" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_available_doctors.xml" value="0.23854166666666668" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_checkout.xml" value="0.2" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_hospitals.xml" value="0.25416666666666665" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_make_payment.xml" value="0.264" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_pcr_reciept.xml" value="0.264" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/app_bar_main.xml" value="0.15989583333333332" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/content_main.xml" value="0.12047101449275362" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/fragment_blank.xml" value="0.15989583333333332" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/fragment_pcr.xml" value="0.12360688956433637" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/fragment_pcr_hospital.xml" value="0.12360688956433637" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/fragment_popup.xml" value="0.12360688956433637" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/fragment_slideshow.xml" value="0.12360688956433637" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/payment_sucess.xml" value="0.2" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/pcr_hospital.xml" value="0.25416666666666665" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/pcr_vertical_hospitals.xml" value="0.12360688956433637" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/layout/runningnumber_fragment.xml" value="0.10869565217391304" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Third year/Secondsemester/UEE/project implementation/EChannel/EChannel/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

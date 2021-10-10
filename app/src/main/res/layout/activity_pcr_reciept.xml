@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PcrReciept">
+
+
+    <TextView
+        android:id="@+id/Reciptnametxt"
+        android:layout_width="107dp"
+        android:layout_height="17dp"
+        android:layout_marginBottom="596dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Patient name"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/ReciptIDtxt"
+        android:layout_width="89dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="512dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="National ID"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/Hospitaltxt"
+        android:layout_width="70dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="444dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Hospital"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/datetxt"
+        android:layout_width="70dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="280dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Date"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/timetxt"
+        android:layout_width="70dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="280dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Time"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/specializationtxt"
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="212dp"
+        android:background="#FDFBFB"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Specialization"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/amounttxt"
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="128dp"
+        android:background="#FDFBFB"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Amount"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/mobiletxt2"
+        android:layout_width="143dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="360dp"
+        android:background="#FDFBFB"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        android:text="Mobile Number"
+        android:textColor="#039BE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+<!--    android:drawableRight="@drawable/ic_baseline_person_24"-->
+    <EditText
+        android:id="@+id/nameedittext"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="540dp"
+        android:background="@drawable/edittextround"
+
+
+        android:ems="10"
+        android:hint="           A.N.S.Thenuwara"
+        android:inputType="textPersonName"
+        android:textColor="#090909"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittextID"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="@+id/edittextID" />
+
+<!--    android:drawableRight="@drawable/ic_baseline_card_travel_24"-->
+
+    <EditText
+        android:id="@+id/edittextID"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="468dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="           995034056V"
+        android:inputType="textPersonName"
+        android:textColor="#070707"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittexthospital"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edittexthospital" />
+
+    <EditText
+        android:id="@+id/edittexthospital"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="392dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="           Durdans Hospital"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittextmobile"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="@+id/edittextmobile" />
+
+    <EditText
+        android:id="@+id/edittextspecial"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="            PCR TEST"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittextamount"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="@+id/edittextamount" />
+
+    <EditText
+        android:id="@+id/edittextamount"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="              LKR.6999.00"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextmobile"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="308dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="           0713456789"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittexttime"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edittextdate" />
+
+    <EditText
+        android:id="@+id/edittexttime"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="       8.00 AM"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittextspecial"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextdate"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/edittextround"
+
+        android:ems="10"
+        android:hint="     2021-02-28"
+        android:inputType="textPersonName"
+        android:textColor="#8E8585"
+        android:textColorHint="#090909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="@+id/edittextspecial" />
+
+    <TextView
+        android:id="@+id/regitext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="628dp"
+        android:text="Patient Channelling Details"
+        android:textColor="#1976D2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FF303F9F"
+        android:text="PROCEED"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F5F5F5"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nameedittext"
+        app:layout_constraintEnd_toEndOf="@+id/nameedittext"
+        app:layout_constraintTop_toTopOf="@+id/nameedittext"
+        app:layout_constraintVertical_bias="0.521"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_card_travel_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittexthospital"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edittexthospital"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextmobile"
+        app:layout_constraintStart_toEndOf="@+id/edittextmobile"
+        app:layout_constraintStart_toStartOf="@+id/edittextmobile"
+        app:layout_constraintTop_toTopOf="@+id/edittextmobile"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_perm_phone_msg_24" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextdate"
+        app:layout_constraintStart_toStartOf="@+id/edittextdate"
+        app:layout_constraintTop_toTopOf="@+id/edittextdate"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittexttime"
+        app:layout_constraintEnd_toEndOf="@+id/edittexttime"
+        app:layout_constraintTop_toTopOf="@+id/edittexttime"
+        app:srcCompat="@drawable/ic_baseline_timer_24" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="309dp"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edittextspecial"
+        app:layout_constraintEnd_toEndOf="@+id/edittextspecial"
+        app:layout_constraintStart_toStartOf="@+id/edittextspecial"
+        app:layout_constraintTop_toTopOf="@+id/edittextspecial"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

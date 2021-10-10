@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_channelling"
+            android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:title="@string/menu_channelling" />
+
+        <item
+            android:id="@+id/nav_drvinglicense"
+            android:icon="@drawable/ic_baseline_drive_eta_24"
+            android:title="@string/menu_driving" />
+        <item
+            android:id="@+id/nav_runningnumber"
+            android:icon="@drawable/ic_baseline_format_list_numbered_24"
+            android:title="@string/menu_runningnum" />
+        <item
+            android:id="@+id/nav_pcr"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            android:title="@string/pcr_test" />
+        <item
+            android:id="@+id/nav_channelhistory"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_claimrefund"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="@string/menu_refund" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_baseline_call_24"
+            android:title="@string/menu_contact" />
+    </group>
+</menu>
