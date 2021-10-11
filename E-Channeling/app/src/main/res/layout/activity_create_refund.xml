@@ -25,7 +25,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="Claim Refund"
         android:textColor="@color/thisAppBlack"
-        android:textSize="35sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
